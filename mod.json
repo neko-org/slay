@@ -1,0 +1,8 @@
+{
+	"name": "slay",
+	"update": "github:tera-mods/slay",
+	"conflicts": ["drop"],
+	"title": "Slay",
+	"authors": ["Pinkie Pie", "Saegusa"],
+	"description": "Triggers fall damage to lower your HP to the specified %."
+}
