@@ -8,7 +8,7 @@ module.exports = function Slay(mod) {
 		curHp = 0,
 		maxHp = 0
 
-	mod.hook('S_LOGIN', 12, event => {
+	mod.hook('S_LOGIN', mod.patchVersion < 81 ? 12 : 13, event => {
 		({gameId} = event)
 		isCastanic = Math.floor((event.templateId - 10101) / 200) === 3
 	})
